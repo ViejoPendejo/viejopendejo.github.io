@@ -1,0 +1,23 @@
+﻿body {
+  background-color: black;
+  color: #2e5b24;
+  font-family: Verdana;
+}
+
+.center { 
+/*height: 200px;*/
+  position: relative;
+  border: 3px solid #2e5b24; 
+  vertical-align: middle;
+  text-align: center;
+}
+
+.center p {
+  white-space:nowrap;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:48pt;
+}
